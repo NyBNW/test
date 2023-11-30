@@ -1,21 +1,3 @@
-import streamlit as st
-
-# Define a list of available clothing items and accessories
-clothing_items = [
-    'T-Shirt',
-    'Dress',
-    'Jeans',
-    'Skirt',
-    'Jacket'
-]
-
-accessories = [
-    'Hat',
-    'Sunglasses',
-    'Necklace',
-    'Handbag',
-    'Shoes'
-]
 
 # Create a sidebar section for selecting clothing items and accessories
 st.sidebar.header('Dress Up Game')
