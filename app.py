@@ -1,15 +1,4 @@
-
-for accessory in selected_accessories:
-    st.write(accessory)
-
-# Display the uploaded drawings
-st.header('Uploaded Drawings')
-for file in uploaded_files:
-    st.image(file)
-
-# Display the virtual character with the selected items and drawings
-st.header('Virtual Character')
-# Add code here to display the virtual character with the selected items and drawingsimport streamlit as st
+import streamlit as st
 
 # Define a list of available clothing items and accessories
 clothing_items = [
